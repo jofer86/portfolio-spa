@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "google",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "rules": {
+      "new-cap":"off",
+      "semi":"error"
+    }
+}
